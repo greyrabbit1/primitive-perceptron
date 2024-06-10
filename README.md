@@ -3,11 +3,15 @@ This repository contains a simple implementation of the perceptron algorithm in 
 The Perceptron class has methods for training the perceptron on a set of samples and expected outputs, classifying new samples, updating the weights and bias based on the error between the expected output and the actual output, printing the activation function in a human-readable format, and plotting the samples and the line equation of the latest activation function.
 
 # Installation
-To use the Perceptron class, you will need to have NumPy and Matplotlib installed. You can install these packages using pip:
+To use the Perceptron class, you will need to have NumPy and Matplotlib installed. You can install these packages using pip or with the requirements.txt file:
 
 
 ```bash
 pip install numpy matplotlib
+```
+or
+```bash
+pip install -r requirements.txt
 ```
 # Usage
 Here's an example of how to use the Perceptron class:
